@@ -1,0 +1,26 @@
+body{
+    background-image: url(assets/map_bg_image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.barra-nav-footer{
+    background-color: #1EA5BB;
+}
+.sezioni{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.sfondo{
+    position: relative;
+    background-image: url(assets/map_bg_image.jpg);
+    background-size: cover;
+    z-index: 2;
+}
+.logo{
+    position: relative;
+    z-index: 1;
+    opacity: 0.6;
+}
+.ombra{
+    box-shadow: 4px 4px 8px 4px rgba(77, 77, 77, 0.5);
+}
